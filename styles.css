@@ -72,7 +72,7 @@ nav {
   opacity: 1;
   background-color: white;
   background-image: url(/ressource/photocopier.jpg);
-  background-size: 50%;
+  background-size: 30%;
   background-repeat: no-repeat;
   background-position: 85%;
   position: fixed;
@@ -80,6 +80,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
+  text-align: center;
 }
 
 .menuOpenCompetences section {
