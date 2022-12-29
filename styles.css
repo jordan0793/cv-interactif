@@ -36,30 +36,39 @@ h1 {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 15%;
+  margin-bottom: -10%;
   font-size: 1.5em;
   color: rgb(4, 4, 68);
+  /* background-color: yellow; */
 }
 
-.experience {
-  display: flex;
-  flex-direction: column;
-}
-
-.competences {
-  display: flex;
-  flex-direction: column;
-}
-
+.experience,
+.competences,
 .formation {
   display: flex;
-  flex-direction: column;
+  /* background-color: brown; */
 }
+
+.personnel {
+  display: flex;
+  background-color: white;
+  width: 10%;
+  margin-left: 42%;
+  margin-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 15px;
+  height: 15%;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Menu ouvert sur la première page, menus subsidiaires cachés*/
 
 aside,
 section,
-nav {
+nav,
+footer {
   display: none;
   opacity: 0;
 }
@@ -111,4 +120,16 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.menuOpenPersonnel footer {
+  display: flex;
+  opacity: 1;
+  position: absolute;
+  top: 20%;
+  background-color: white;
+  height: 30%;
+  width: 100%;
+  align-items: center;
+  padding-left: 10%;
 }
