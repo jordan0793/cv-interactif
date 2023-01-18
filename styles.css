@@ -126,6 +126,7 @@ footer {
 
 .menuOpenPersonnel footer {
   display: flex;
+  justify-content: space-around;
   opacity: 1;
   position: absolute;
   top: 20%;
@@ -134,4 +135,9 @@ footer {
   width: 100%;
   align-items: center;
   padding-left: 10%;
+}
+
+#photoProfil {
+  display: flex;
+  justify-content: end;
 }
